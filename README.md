@@ -50,32 +50,69 @@ Attrition Rate = (Number of employees who left during a period / Average number 
 Attrition Rate = DIVIDE( SUM(HR_Data[Attrition_count]),  SUM(HR_Data[EmployeeCount]) )
 ```
 - Converted **Attrition Rate** to **Percentage** format for better readability  
-- **Average Age** → Converted to whole number format  
-- **Average Monthly Income** → Calculated as average of Monthly Income column  
-- **Average Years at Company** → Calculated average of Years at Company
+- **Average Age**  
+- **Average Monthly Income** 
+- **Average Years at Company**
 
 ## 3. Visualizations Implemented
 
 - **Tree Map** → Attrition by Gender  
-- **Donut Chart** → Education by Attrition Count  
-- **Stacked Column Chart** → Salary distribution by Attrition  
-- **Stacked Column Chart** → Age groups by Attrition  
-- **Line Chart** → Years at Company vs Attrition (filtered for <14 years)  
-- **Stacked Column Chart** → Job Roles by Attrition (Top N filter applied)  
+- **Donut Chart** →  Attrition by Education  
+- **Stacked Column Chart** → Attrition by Salary distribution
+- **Stacked Column Chart** → Attrition by Age groups
+- **Line Chart** → Years at Company vs Attrition (filtered for < 14 years)  
+- **Stacked Column Chart** → Attrition by Job Roles (Top N filter applied)  
 - **Matrix Table** → Job Role, Job Satisfaction, and Sum of Attrition  
-  - Applied **conditional formatting** (font color) to Sum of Attrition  
-  - Improved **row padding** for better readability  
 
 ---
+## 4. Insights 
 
-## 4. Dashboard Enhancements
+## 1. Overall Attrition
+- The organization experienced an **attrition rate of 16%**, with 238 employees leaving out of a total workforce of 1,480.
+- This rate is higher than typical industry benchmarks (~10–12%).
+- Average profile of employees leaving:
+  - **Age:** 37 years
+  - **Tenure:** 7 years
+  - **Salary:** $6.5K
+- Indicates mid-career professionals and moderately compensated staff contribute significantly to turnover.
 
-- Standardized data formats (**whole number, percentage, currency**)  
-- Applied filters for focused insights (e.g., Years <14, Top N job roles)  
-- Used **conditional formatting** in tables for visual emphasis  
-- Designed layout with **KPIs + charts** to provide a comprehensive attrition view
+## 2. Attrition by Education
+- Employees with **Life Sciences and Medical degrees** account for the largest proportion of exits.
+- **Technical** and **Marketing** graduates show departures in smaller numbers.
+- Suggests that **knowledge-intensive/technical roles** are particularly vulnerable to turnover.
+
+## 3. Attrition by Age
+- Highest attrition occurs in employees aged **26–35**, likely seeking better opportunities elsewhere.
+- Attrition declines in older age groups, indicating **more experienced staff are relatively stable**.
+
+## 4. Attrition by Gender
+- **Male employees** account for a larger share of attrition than females.
+- This may reflect:
+  - Role distribution
+  - Market demand for certain skill sets
+  - Career mobility preferences
+
+## 5. Attrition by Salary
+- Majority of attrition occurs within **lower salary bands**, particularly employees earning ≤ $5K.
+- Turnover decreases as salary increases.
+- Highlights the importance of **competitive compensation** for retention.
+
+## 6. Attrition by Tenure
+- Attrition shows a **bimodal pattern**:
+  - Spike within the **first 1–2 years** (onboarding/early engagement challenges)
+  - Smaller increase around the **10-year mark** (career stagnation/limited advancement)
+
+## 7. Attrition by Job Role
+- High turnover roles: **Research Scientists, HR professionals, Sales Representatives**
+- Low turnover roles: **Manufacturing Directors, Senior-level positions**
+- Suggests **role-specific retention strategies** are needed.
+
+## 8. Job Role vs Satisfaction Analysis
+- Attrition among Research Scientists, HR, and Sales employees appears **independent of job satisfaction scores**.
+- Indicates other factors like:
+  - Workload
+  - Compensation
+  - Growth opportunities
+- Organizational/structural issues in these functions need attention to improve retention.
 
 ---
-
-
-
