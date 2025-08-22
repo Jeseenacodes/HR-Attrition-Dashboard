@@ -47,12 +47,33 @@ Attrition Rate = (Number of employees who left during a period / Average number 
 
 **Attrition Rate (DAX Measure):**
 ```DAX
-Attrition Rate =
-DIVIDE(
-    SUM(HR_Data[Attrition_count]),
-    SUM(HR_Data[EmployeeCount])
-)
+Attrition Rate = DIVIDE( SUM(HR_Data[Attrition_count]),  SUM(HR_Data[EmployeeCount]) )
 ```
+**Converted to Percentage format for better readability.**
+**Average Age → Converted to whole number format.**
+**Average Monthly Income → Used average of Monthly Income column.**
+**Average Years at Company → Calculated average of Years at Company.**
+
+## 3. Visualizations Implemented
+
+- **Tree Map** → Attrition by Gender  
+- **Donut Chart** → Education by Attrition Count  
+- **Stacked Column Chart** → Salary distribution by Attrition  
+- **Stacked Column Chart** → Age groups by Attrition  
+- **Line Chart** → Years at Company vs Attrition (filtered for <14 years)  
+- **Stacked Column Chart** → Job Roles by Attrition (Top N filter applied)  
+- **Matrix Table** → Job Role, Job Satisfaction, and Sum of Attrition  
+  - Applied **conditional formatting** (font color) to Sum of Attrition  
+  - Improved **row padding** for better readability  
+
+---
+
+## 4. Dashboard Enhancements
+
+- Standardized data formats (**whole number, percentage, currency**)  
+- Applied filters for focused insights (e.g., Years <14, Top N job roles)  
+- Used **conditional formatting** in tables for visual emphasis  
+- Designed layout with **KPIs + charts** to provide a comprehensive attrition view
 
 ---
 
