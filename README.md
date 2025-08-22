@@ -68,8 +68,7 @@ Attrition Rate = DIVIDE( SUM(HR_Data[Attrition_count]),  SUM(HR_Data[EmployeeCou
 ## 4. Insights 
 ![Insights](https://img.shields.io/badge/Insights-Attrition-blue)
 ## 1. Overall Attrition
-- The organization experienced an **attrition rate of 16%**, with 238 employees leaving out of a total workforce of 1,480.
-- This rate is higher than typical industry benchmarks (~10–12%).
+- The organization experienced an **attrition rate of 16%**, with 238 employees leaving out of a total workforce of 1,480 which is higher than typical industry benchmarks (~10–12%).
 - Average profile of employees leaving:
   - **Age:** 37 years
   - **Tenure:** 7 years
