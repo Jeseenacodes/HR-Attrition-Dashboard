@@ -31,14 +31,9 @@ It’s different from **turnover**, which usually means employees leaving and th
 
 Attrition is often tracked as a percentage:
 
-\[
-\text{Attrition Rate} = \frac{\text{Number of employees who left during a period}}{\text{Average number of employees during that period}} \times 100
-\]
-
-**Example in Markdown-friendly code block:**
-
 ```text
 Attrition Rate = (Number of employees who left during a period / Average number of employees during that period) × 100
+```
 ---
 
 
