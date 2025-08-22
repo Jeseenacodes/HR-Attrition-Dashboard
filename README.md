@@ -1,4 +1,4 @@
-# HR-Attrition-Dashboard
+# HR Attrition Dashboard Documentation
 
 ![Data Analytics](https://img.shields.io/badge/Data%20Analytics-Insight-blue?logo=tableau&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power%20BI-Report-yellow?logo=microsoftpowerbi&logoColor=white)
@@ -34,6 +34,26 @@ Attrition is often tracked as a percentage:
 ```text
 Attrition Rate = (Number of employees who left during a period / Average number of employees during that period) × 100
 ```
+
+## 1. Data Preparation & Transformation
+- Imported HR dataset into Power BI.  
+- Transformed the **Attrition** column from “Yes/No” into binary values (`1` for Yes, `0` for No).  
+- Changed column data types for accurate calculations.  
+- Ensured a clean, structured data model ready for analysis.  
+
+---
+
+## 2. Key Measures Created
+
+**Attrition Rate (DAX Measure):**
+```DAX
+Attrition Rate =
+DIVIDE(
+    SUM(HR_Data[Attrition_count]),
+    SUM(HR_Data[EmployeeCount])
+)
+```
+
 ---
 
 
