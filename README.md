@@ -49,10 +49,10 @@ Attrition Rate = (Number of employees who left during a period / Average number 
 ```DAX
 Attrition Rate = DIVIDE( SUM(HR_Data[Attrition_count]),  SUM(HR_Data[EmployeeCount]) )
 ```
-**Converted to Percentage format for better readability.**
-**Average Age → Converted to whole number format.**
-**Average Monthly Income → Used average of Monthly Income column.**
-**Average Years at Company → Calculated average of Years at Company.**
+- Converted **Attrition Rate** to **Percentage** format for better readability  
+- **Average Age** → Converted to whole number format  
+- **Average Monthly Income** → Calculated as average of Monthly Income column  
+- **Average Years at Company** → Calculated average of Years at Company
 
 ## 3. Visualizations Implemented
 
