@@ -115,4 +115,12 @@ Attrition Rate = DIVIDE( SUM(HR_Data[Attrition_count]),  SUM(HR_Data[EmployeeCou
   - Growth opportunities
 - Organizational/structural issues in these functions need attention to improve retention.
 
+## Key Takeaways / Recommendations
+- **Target 26–35 Age Group**: Implement career development and fast-track promotions to reduce mid-career attrition.  
+- **Review Compensation**: Majority of attrition occurs for salaries <5K; adjust pay packages.  
+- **Enhance Early Engagement**: High attrition at 1–2 years points to onboarding, mentorship, and role-fit issues.  
+- **Focus on Research Scientist & HR Roles**: These roles show high attrition; apply targeted retention strategies.  
+- **Assess Gender Dynamics**: Higher male attrition may reflect job-role concentration or work-life balance concerns.  
+- **Support Long-Tenure Employees**: Prevent exits around 10 years with leadership tracks, reskilling, or internal mobility.
+
 ---
